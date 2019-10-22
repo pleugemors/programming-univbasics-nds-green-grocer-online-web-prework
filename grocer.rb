@@ -42,6 +42,8 @@ end
 
 def apply_coupons(cart, coupons)
   cons_cart = consolidate_cart(cart)
+  puts "cons cart"
+  puts cons_cart
   row = 0 
   while coupons[row] do 
     row2 = 0 
